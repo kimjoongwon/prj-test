@@ -3,14 +3,8 @@ pipeline {
 
     tools {
         // Jenkins에서 구성한 Node.js의 이름을 사용합니다.
-        nodejs 'NodeJS_14'
+        nodejs 'NodeJS'
     }
-
-    environment {
-        // 환경 변수 설정
-        // Node.js 버전은 Jenkins의 NodeJS 플러그인을 통해 관리됩니다.
-    }
-
 // test
     stages {
         stage('Prepare') {
