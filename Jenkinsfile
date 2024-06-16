@@ -11,6 +11,7 @@ pipeline {
         // Node.js 버전은 Jenkins의 NodeJS 플러그인을 통해 관리됩니다.
     }
 
+// test
     stages {
         stage('Prepare') {
             steps {
