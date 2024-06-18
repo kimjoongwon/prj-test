@@ -1,4 +1,7 @@
 pipeline {
+    tools {
+        docker 'Docker'
+    }
     agent {
         docker { image 'node:20.14.0-alpine3.20' }
     }
